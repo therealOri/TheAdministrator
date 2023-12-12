@@ -8,7 +8,7 @@ __ __
 # About
 I decided to make this repo as a way for users working with the discord.py API to have a better and or easier time learnig how to work with certain elements, such as app commands, grouped commands, Modals, Buttons, Select menus, Events, and choice command options/drop downs. Since the discord.py documentation is kinda not the best when it comes to letting you know how to do something and not have it throw a million errors. (aka, showing examples with their information). So if you are a user who is trying to use discord.py, this repo is for you.
 
-Feel free to use the code here as referance instead of spending hours googling.
+Feel free to use the code here as referance for some basic moderation commands, events, and more instead of spending hours googling.
 
 <br>
 <br>
