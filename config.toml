@@ -1,0 +1,48 @@
+# Admin logging events config.
+TOKEN="TOKEN_HERE"
+db_name="user_verification_queue.db"
+
+# role IDs and channel IDs
+# Replace "#" with actual IDs
+guild_id=#
+log_channel=#
+mod_log_channel=#
+user_reports_channel=#
+welcome_channel=#
+verification_channel=#
+
+verified_role=#
+staff_role=#
+
+
+
+[other]
+rmbg_imgs_channel_purge=false
+purge_timer=86400 #24hrs = 86400 seconds. | 60*60*24 | s * m * how_many_hrs
+package_updating=false
+package_update_timer=60  #2_592_000 = 60*60*24*30 = 1 month in seconds. [ seconds x minutes x hours_in_day x how_many_days ]
+packages="rembg" # can also be a list of packages. ["sample1", "sample2", "sample3"]
+
+
+
+[user_events]
+name_changes = true
+profile_picture = true
+invites_created = false
+
+
+[channel_events]
+channel_make=false
+channel_delete=false
+channel_edit=false #WIP for overwrites changes.
+
+
+[role_events]
+role_make=false
+role_delete=false
+role_edit=false
+
+
+[message_events]
+edit_msg = false
+delete_msg=false
